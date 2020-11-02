@@ -1,6 +1,6 @@
 package ir.it.orbit.service.dto;
 
-import ir.it.orbit.service.dto.Attributes.CheckBoxGroup.ItemCheckBoxGroup;
+import ir.it.orbit.service.dto.Attributes.CheckBoxGroup.ItemCheckBoxGroupDTO;
 import ir.it.orbit.service.dto.Attributes.EditableTable.CellEditorComponents.LayoutDTO;
 import ir.it.orbit.service.dto.Base.*;
 import lombok.Data;
@@ -16,7 +16,7 @@ public class CheckBoxGroupDTO {
     public BaseConverterDTO converter;
     public Boolean layoutable;
     public ListenersDTO listeners;
-    public ItemCheckBoxGroup items;
+    public ItemCheckBoxGroupDTO items;
     public Boolean enabled;
 
     public EventAllDTO events;

@@ -13,7 +13,7 @@ public class CurrencyDTO {
     public String validators;
     public Integer rates;
     public String tooltip;
-    public int maxLength;
+    public Integer maxLength;
     public String main;
     public Boolean defaultWidget;
     public String label;

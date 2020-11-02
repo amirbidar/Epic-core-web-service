@@ -1,6 +1,6 @@
 package ir.it.orbit.service.dto;
 
-import ir.it.orbit.service.dto.Attributes.Composite.Border;
+import ir.it.orbit.service.dto.Attributes.Composite.BorderDTO;
 import ir.it.orbit.service.dto.Attributes.EditableTable.CellEditorComponents.LayoutDTO;
 import ir.it.orbit.service.dto.Base.ChildrenDTO;
 import ir.it.orbit.service.dto.Base.EventAllDTO;
@@ -11,7 +11,7 @@ import lombok.Data;
 @Data
 public class CompositeDTO {
     public LayoutDTO layout;
-    public Border border;
+    public BorderDTO border;
     public LayoutDataDTO layoutData;
     public ListenersDTO listeners;
     public ChildrenDTO children;

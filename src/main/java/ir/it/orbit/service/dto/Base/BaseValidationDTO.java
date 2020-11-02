@@ -1,6 +1,5 @@
 package ir.it.orbit.service.dto.Base;
 
-import ir.it.orbit.service.dto.Base.EventListeners.OnClick;
 import ir.it.orbit.service.dto.Base.Validationss.*;
 import lombok.Data;
 
@@ -16,6 +15,7 @@ public class BaseValidationDTO {
     public List<StringValidator> stringValidator;
     public List<ScriptValidator> scriptValidator;
     public List<CaptchaValidator> captchaValidator;
-    public List<OnClick> onClick;
+//    public List<OnClick> onClick;
     public List<SelectionValidation> selectionValidation;
+    public List<DateRangeValidator> dateRangeValidator;
 }

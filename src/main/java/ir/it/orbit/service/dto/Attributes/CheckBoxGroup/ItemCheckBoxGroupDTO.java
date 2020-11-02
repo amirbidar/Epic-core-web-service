@@ -6,7 +6,7 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class ItemCheckBoxGroup {
+public class ItemCheckBoxGroupDTO{
 
     public List<CheckBoxItemDTO> checkbox;
     public String condition;
