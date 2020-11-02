@@ -1,14 +1,14 @@
 package ir.it.orbit.service.dto;
 
 import ir.it.orbit.service.dto.Attributes.Tree.Columns;
-import ir.it.orbit.service.dto.Base.EventAll;
-import ir.it.orbit.service.dto.Base.LayoutData;
-import ir.it.orbit.service.dto.Base.Listeners;
+import ir.it.orbit.service.dto.Base.EventAllDTO;
+import ir.it.orbit.service.dto.Base.LayoutDataDTO;
+import ir.it.orbit.service.dto.Base.ListenersDTO;
 import lombok.Data;
 
 @Data
 public class TreeDTO {
-    public Listeners listeners;
+    public ListenersDTO listeners;
     public Boolean lazy;
     public Boolean sortByQuery;
     public Boolean layoutable;
@@ -17,11 +17,11 @@ public class TreeDTO {
     public String datas;
     public String label;
     public Boolean enabled;
-    public LayoutData layoutData;
+    public LayoutDataDTO layoutData;
     public Integer autoExpandLevel;
     public Boolean expandAll;
     public String name;
     public String headerText;
     public String selectionMode;
-    public EventAll events;
+    public EventAllDTO events;
 }

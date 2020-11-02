@@ -1,11 +1,11 @@
 package ir.it.orbit.service.mapper;
 
-import ir.it.orbit.service.dto.CheckBoxGroupDTO;
-import ir.it.orbit.service.xml.WidgetJson.CheckBoxGroup;
+import ir.it.orbit.service.dto.Attributes.Form.GridLayoutDTO;
+import ir.it.orbit.service.xml.Attributes.Form.GridLayout;
 import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring", uses = {})
-public interface GridLayouMapper extends EntityMapper<CheckBoxGroupDTO, CheckBoxGroup> {
+public interface GridLayoutMapper extends EntityMapper<GridLayoutDTO, GridLayout> {
 
 
 }

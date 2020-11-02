@@ -5,11 +5,11 @@ import lombok.Data;
 
 @Data
 public class CheckBoxItemDTO {
-    public LayoutData layoutData;
-    public Listeners listeners;
+    public LayoutDataDTO layoutData;
+    public ListenersDTO listeners;
     public Boolean visible;
     public Boolean layoutable;
-    public BaseValidation validators;
+    public BaseValidationDTO validators;
     public BaseConverter converter;
     public String tooltip;
     public String name;
@@ -18,5 +18,5 @@ public class CheckBoxItemDTO {
     public String value;
     public Boolean selected;
     public Boolean enabled;
-    public EventAll events;
+    public EventAllDTO events;
 }

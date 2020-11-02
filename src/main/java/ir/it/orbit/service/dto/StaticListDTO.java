@@ -6,14 +6,14 @@ import lombok.Data;
 
 @Data
 public class StaticListDTO {
-    public LayoutData layoutData;
-    public BaseValidation validators;
-    public Listeners listeners;
+    public LayoutDataDTO layoutData;
+    public BaseValidationDTO validators;
+    public ListenersDTO listeners;
     public String name;
     public ListItems items;
     public String selectionMode;
     public Boolean enabled;
-    public EventAll events;
+    public EventAllDTO events;
     public Boolean layoutable;
     public BaseConverter converter;
     public String tooltip;

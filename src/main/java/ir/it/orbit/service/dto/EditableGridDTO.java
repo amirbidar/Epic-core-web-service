@@ -8,11 +8,11 @@ import lombok.Data;
 @Data
 public class EditableGridDTO {
     public String factory;
-    public Listeners listeners;
+    public ListenersDTO listeners;
     public DataEditableTable data;
     public String deleteExpression;
     public Boolean layoutable;
-    public BaseValidation validators;
+    public BaseValidationDTO validators;
     public ColumnsEditableTable columns;
     public BaseConverter converter;
     public String  findExpression;
@@ -20,11 +20,11 @@ public class EditableGridDTO {
     public Boolean showSideButtons;
     public Boolean enabled;
     public Boolean showAddButton;
-    public LayoutData layoutData;
+    public LayoutDataDTO layoutData;
     public Integer maximumRows;
     public Boolean showDeleteButton;
     public String name;
     public String value;
     public String selectionMode;
-    public EventAll events;
+    public EventAllDTO events;
 }

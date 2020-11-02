@@ -1,10 +1,10 @@
 package ir.it.orbit.service.dto.Attributes.Composite;
 
 import ir.it.orbit.service.dto.Base.BaseConverter;
-import ir.it.orbit.service.dto.Base.Listeners;
+import ir.it.orbit.service.dto.Base.ListenersDTO;
 
 public class Hidden {
-    public Listeners listeners;
+    public ListenersDTO listeners;
     public BaseConverter converter;
     public String name;
     public String value;

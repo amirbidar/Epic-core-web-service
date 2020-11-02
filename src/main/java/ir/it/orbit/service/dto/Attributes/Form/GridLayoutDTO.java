@@ -3,7 +3,7 @@ package ir.it.orbit.service.dto.Attributes.Form;
 import lombok.Data;
 
 @Data
-public class GridLayout {
+public class GridLayoutDTO {
     public Integer numberOfColumns;
     public Integer horizontalSpacing;
     public Integer marginHeight;

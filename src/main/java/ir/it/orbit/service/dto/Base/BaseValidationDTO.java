@@ -8,7 +8,7 @@ import java.util.List;
 
 @Data
 
-public class BaseValidation {
+public class BaseValidationDTO {
   //  List<Validations> validations;
     public List<RequiredValidator> requiredValidator;
     public List<EmailValidator> emailValidator;

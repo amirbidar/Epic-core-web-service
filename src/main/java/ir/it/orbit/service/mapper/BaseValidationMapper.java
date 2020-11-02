@@ -1,19 +1,11 @@
 package ir.it.orbit.service.mapper;
 
-import ir.it.orbit.domain.Book;
-import ir.it.orbit.service.dto.BookDTO;
+import ir.it.orbit.service.dto.Base.BaseValidationDTO;
+import ir.it.orbit.service.xml.Base.BaseValidation;
 import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring", uses = {})
-public interface BookMapper extends EntityMapper<BookDTO, Book> {
+public interface BaseValidationMapper extends EntityMapper<BaseValidationDTO, BaseValidation> {
 
 
-    default Book fromId(Long id) {
-        if (id == null) {
-            return null;
-        }
-        Book book = new Book();
-        book.setId(id);
-        return book;
-    }
 }

@@ -10,22 +10,22 @@ public class FileUploadDTO {
     public String factory;
     public String metadata;
     public Integer maximumFile;
-    public Listeners listeners;
+    public ListenersDTO listeners;
     public DataUpload data;
     public String validExtension;
     public Boolean layoutable;
-    public BaseValidation validators;
+    public BaseValidationDTO validators;
     public BaseConverter converter;
     public Boolean manualSubmit;
     public EnumsDecleration.SourceUpload source;
     public String label;
     public Boolean enabled;
     public String fileManager;
-    public LayoutData layoutData;
+    public LayoutDataDTO layoutData;
     public Boolean readonly;
     public EnumsDecleration.RepositoryTypeUpload repositoryType;
     public String name;
     public String value;
     public Integer maximumSize;
-    public EventAll events;
+    public EventAllDTO events;
 }

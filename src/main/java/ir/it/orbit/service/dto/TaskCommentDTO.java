@@ -1,13 +1,13 @@
 package ir.it.orbit.service.dto;
 
 import ir.it.orbit.service.dto.Base.BaseConverter;
-import ir.it.orbit.service.dto.Base.LayoutData;
-import ir.it.orbit.service.dto.Base.Listeners;
+import ir.it.orbit.service.dto.Base.LayoutDataDTO;
+import ir.it.orbit.service.dto.Base.ListenersDTO;
 import lombok.Data;
 
 @Data
 public class TaskCommentDTO {
-    public Listeners listeners;
+    public ListenersDTO listeners;
     public Boolean layoutable;
     public String validators;
     public BaseConverter converter;
@@ -17,7 +17,7 @@ public class TaskCommentDTO {
     public Boolean htmlEnabled;
     public String label;
     public Boolean enabled;
-    public LayoutData layoutData;
+    public LayoutDataDTO layoutData;
     public Boolean readonly;
     public String name;
     public String value;

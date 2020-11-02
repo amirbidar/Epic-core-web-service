@@ -2,9 +2,9 @@ package ir.it.orbit.service.dto;
 
 import ir.it.orbit.service.dto.Attributes.DatePicker.DatePickerValidators;
 import ir.it.orbit.service.dto.Base.BaseConverter;
-import ir.it.orbit.service.dto.Base.EventAll;
-import ir.it.orbit.service.dto.Base.LayoutData;
-import ir.it.orbit.service.dto.Base.Listeners;
+import ir.it.orbit.service.dto.Base.EventAllDTO;
+import ir.it.orbit.service.dto.Base.LayoutDataDTO;
+import ir.it.orbit.service.dto.Base.ListenersDTO;
 import ir.it.orbit.service.dto.Enum.EnumsDecleration;
 import lombok.Data;
 
@@ -20,10 +20,10 @@ public class DatePickerDTO {
     public EnumsDecleration.DatePickerCalenderMode calendarMode;
     public String name;
     public String value;
-    public Listeners listeners;
-    public EventAll events;
+    public ListenersDTO listeners;
+    public EventAllDTO events;
     public DatePickerValidators validators;
     public BaseConverter converter;
-    private LayoutData layoutData;
+    private LayoutDataDTO layoutData;
 
 }

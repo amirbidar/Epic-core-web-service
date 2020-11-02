@@ -5,8 +5,8 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class Popups {
-    List<Popup> popup;
+public class PopupsDTO {
+    List<PopupDTO> popup;
 
 
 }

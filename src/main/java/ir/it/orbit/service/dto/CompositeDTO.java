@@ -1,23 +1,23 @@
 package ir.it.orbit.service.dto;
 
 import ir.it.orbit.service.dto.Attributes.Composite.Border;
-import ir.it.orbit.service.dto.Attributes.EditableTable.CellEditorComponents.Layout;
-import ir.it.orbit.service.dto.Base.Children;
-import ir.it.orbit.service.dto.Base.EventAll;
-import ir.it.orbit.service.dto.Base.LayoutData;
-import ir.it.orbit.service.dto.Base.Listeners;
+import ir.it.orbit.service.dto.Attributes.EditableTable.CellEditorComponents.LayoutDTO;
+import ir.it.orbit.service.dto.Base.ChildrenDTO;
+import ir.it.orbit.service.dto.Base.EventAllDTO;
+import ir.it.orbit.service.dto.Base.LayoutDataDTO;
+import ir.it.orbit.service.dto.Base.ListenersDTO;
 import lombok.Data;
 
 @Data
 public class CompositeDTO {
-    public Layout layout;
+    public LayoutDTO layout;
     public Border border;
-    public LayoutData layoutData;
-    public Listeners listeners;
-    public Children children;
+    public LayoutDataDTO layoutData;
+    public ListenersDTO listeners;
+    public ChildrenDTO children;
     public Boolean layoutable;
     public String name;
     public String label;
     public Boolean enabled;
-    public EventAll events;
+    public EventAllDTO events;
 }

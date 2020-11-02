@@ -7,18 +7,18 @@ import lombok.Data;
 @Data
 public class DynamicComboBoxDTO {
 
-    public Listeners listeners;
+    public ListenersDTO listeners;
     public Boolean editable;
     public Boolean layoutable;
-    public BaseValidation validators;
+    public BaseValidationDTO validators;
     public BaseConverter converter;
     public String tooltip;
     public String label;
     public Boolean enabled;
-    public LayoutData layoutData;
+    public LayoutDataDTO layoutData;
     public String name;
     public String value;
     public ItemsComboBox items;
-    public EventAll events;
+    public EventAllDTO events;
 
 }

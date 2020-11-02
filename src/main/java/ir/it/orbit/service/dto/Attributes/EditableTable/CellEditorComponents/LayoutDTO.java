@@ -1,9 +1,9 @@
 package ir.it.orbit.service.dto.Attributes.EditableTable.CellEditorComponents;
 
-import ir.it.orbit.service.dto.Attributes.Form.GridLayout;
+import ir.it.orbit.service.dto.Attributes.Form.GridLayoutDTO;
 import lombok.Data;
 
 @Data
-public class Layout {
-    public GridLayout gridLayout;
+public class LayoutDTO {
+    public GridLayoutDTO gridLayout;
 }

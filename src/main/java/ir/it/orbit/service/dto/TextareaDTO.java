@@ -5,9 +5,9 @@ import lombok.Data;
 
 @Data
 public class TextareaDTO {
-    public Listeners listeners;
+    public ListenersDTO listeners;
     public Boolean layoutable;
-    public BaseValidation validators;
+    public BaseValidationDTO validators;
     public BaseConverter converter;
     public String tooltip;
     public Integer maxLength;
@@ -15,11 +15,11 @@ public class TextareaDTO {
     public Boolean htmlEnabled;
     public String label;
     public Boolean enabled;
-    public LayoutData layoutData;
+    public LayoutDataDTO layoutData;
     public Boolean readonly;
     public String name;
     public String value;
-    public EventAll events;
+    public EventAllDTO events;
     public String direction;
 
 

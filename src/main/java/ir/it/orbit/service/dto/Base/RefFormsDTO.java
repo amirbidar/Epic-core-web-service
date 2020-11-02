@@ -5,8 +5,8 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class RefForms {
-    public List<RefForm> refForm;
+public class RefFormsDTO {
+    public List<RefFormDTO> refForm;
 
 
 }

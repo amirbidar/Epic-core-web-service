@@ -8,7 +8,7 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class  Children {
+public class ChildrenDTO {
     public List<FormDTO> form;
     public List<ButtonDTO> button;
     public List<CaptchaDTO> captcha;

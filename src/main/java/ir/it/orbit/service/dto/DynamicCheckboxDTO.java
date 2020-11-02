@@ -6,17 +6,17 @@ import lombok.Data;
 @Data
 public class DynamicCheckboxDTO {
     public String visible;
-    public Listeners listeners;
+    public ListenersDTO listeners;
     public String layoutable;
-    public BaseValidation validators;
+    public BaseValidationDTO validators;
     public BaseConverter converter;
     public String tooltip;
     public String label;
     public String enabled;
-    public LayoutData layoutData;
+    public LayoutDataDTO layoutData;
     public String rendered;
     public String name;
     public String value;
     public String selected;
-    public EventAll events;
+    public EventAllDTO events;
 }

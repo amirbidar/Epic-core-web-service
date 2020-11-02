@@ -1,22 +1,22 @@
 package ir.it.orbit.service.dto.Base;
 
-import ir.it.orbit.service.dto.Attributes.EditableTable.CellEditorComponents.Layout;
+import ir.it.orbit.service.dto.Attributes.EditableTable.CellEditorComponents.LayoutDTO;
 import lombok.Data;
 
 @Data
-public class Popup {
+public class PopupDTO {
 
-    public Layout layout;
+    public LayoutDTO layout;
     public Boolean visible;
     public Boolean rendered;
     public Boolean draggable;
     public Boolean resizable;
-    public Children children;
+    public ChildrenDTO children;
     public Boolean layoutable;
     public String name;
     public String label;
     public String title;
     public Boolean enabled;
-    public EventAll events;
-    public Listeners listeners;
+    public EventAllDTO events;
+    public ListenersDTO listeners;
 }

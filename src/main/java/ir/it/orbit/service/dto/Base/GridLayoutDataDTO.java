@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Data
 public
-class GridLayoutData {
+class GridLayoutDataDTO {
     public Boolean hGrab;
     public Integer colSpan;
     public Boolean vGrab;

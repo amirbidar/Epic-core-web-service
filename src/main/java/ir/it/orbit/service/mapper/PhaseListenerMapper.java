@@ -1,11 +1,11 @@
 package ir.it.orbit.service.mapper;
 
-import ir.it.orbit.service.dto.Base.ListenersDTO;
-import ir.it.orbit.service.xml.Base.Listeners;
+import ir.it.orbit.service.dto.Base.PhaseListenerDTO;
+import ir.it.orbit.service.xml.Base.PhaseListener;
 import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring", uses = {})
-public interface ListenersMapper extends EntityMapper<ListenersDTO, Listeners> {
+public interface PhaseListenerMapper extends EntityMapper<PhaseListenerDTO, PhaseListener> {
 
 
 }

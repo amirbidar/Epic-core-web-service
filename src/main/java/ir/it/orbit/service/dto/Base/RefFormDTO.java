@@ -3,8 +3,8 @@ package ir.it.orbit.service.dto.Base;
 import lombok.Data;
 
 @Data
-public class RefForm {
+public class RefFormDTO {
     public String formName;
     public String value;
-    public EventAll events;
+    public EventAllDTO events;
 }

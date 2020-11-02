@@ -1,16 +1,16 @@
 package ir.it.orbit.service.dto;
 
-import ir.it.orbit.service.dto.Base.EventAll;
-import ir.it.orbit.service.dto.Base.LayoutData;
-import ir.it.orbit.service.dto.Base.Listeners;
+import ir.it.orbit.service.dto.Base.EventAllDTO;
+import ir.it.orbit.service.dto.Base.LayoutDataDTO;
+import ir.it.orbit.service.dto.Base.ListenersDTO;
 import ir.it.orbit.service.dto.Enum.EnumsDecleration;
 import lombok.Data;
 
 @Data
 public class ButtonDTO {
-    public Listeners listeners;
-    public LayoutData layoutData;
-    public EventAll events;
+    public ListenersDTO listeners;
+    public LayoutDataDTO layoutData;
+    public EventAllDTO events;
     public Boolean layoutable;
     public String tooltip;
     public String caption;

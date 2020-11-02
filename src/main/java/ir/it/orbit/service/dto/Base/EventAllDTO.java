@@ -8,7 +8,7 @@ import java.util.List;
 
 @Data
 @JsonIgnoreProperties
-public class EventAll {
+public class EventAllDTO {
     public List<OnLoad> onLoad;
     public List<OnSelect> onSelect;
     public List<OnChange> onChange;

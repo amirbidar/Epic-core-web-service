@@ -16,10 +16,10 @@ public class TextFieldDTO {
     public Boolean readonly;
     public String name;
     public String value;
-    public Listeners listeners;
-    public BaseValidation validators;
-    public LayoutData layoutData;
-    public EventAll events;
+    public ListenersDTO listeners;
+    public BaseValidationDTO validators;
+    public LayoutDataDTO layoutData;
+    public EventAllDTO events;
     public BaseConverter converter;
 
 

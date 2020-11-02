@@ -9,14 +9,14 @@ import lombok.Data;
 
 @Data
 public class GridDTO {
-    public Listeners listeners;
+    public ListenersDTO listeners;
     public DataTable data;
     public Boolean layoutable;
-    public BaseValidation validators;
+    public BaseValidationDTO validators;
     public Columns columns;
     public String label;
     public Boolean enabled;
-    public LayoutData layoutData;
+    public LayoutDataDTO layoutData;
     public BasePagination paginationBar;
     public String name;
     public String header;
@@ -25,5 +25,5 @@ public class GridDTO {
     public Boolean enableSort;
     @JsonProperty("selection-mode")
     public EnumsDecleration.TableSelectionMode selectionMode;
-    public EventAll events;
+    public EventAllDTO events;
 }

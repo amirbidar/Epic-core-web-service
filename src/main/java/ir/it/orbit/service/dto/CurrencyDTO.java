@@ -1,14 +1,14 @@
 package ir.it.orbit.service.dto;
 
-import ir.it.orbit.service.dto.Base.EventAll;
-import ir.it.orbit.service.dto.Base.LayoutData;
-import ir.it.orbit.service.dto.Base.Listeners;
+import ir.it.orbit.service.dto.Base.EventAllDTO;
+import ir.it.orbit.service.dto.Base.LayoutDataDTO;
+import ir.it.orbit.service.dto.Base.ListenersDTO;
 import lombok.Data;
 
 @Data
 public class CurrencyDTO {
 
-    public Listeners listeners;
+    public ListenersDTO listeners;
     public Boolean layoutable;
     public String validators;
     public Integer rates;
@@ -18,9 +18,9 @@ public class CurrencyDTO {
     public Boolean defaultWidget;
     public String label;
     public Boolean enabled;
-    public LayoutData layoutData;
+    public LayoutDataDTO layoutData;
     public Boolean readonly;
     public String name;
     public String value;
-    public EventAll events;
+    public EventAllDTO events;
 }
