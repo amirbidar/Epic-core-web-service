@@ -14,7 +14,7 @@ public class EditableGridDTO {
     public Boolean layoutable;
     public BaseValidationDTO validators;
     public ColumnsEditableTable columns;
-    public BaseConverter converter;
+    public BaseConverterDTO converter;
     public String  findExpression;
     public String label;
     public Boolean showSideButtons;

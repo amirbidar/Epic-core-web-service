@@ -15,7 +15,7 @@ public class StaticListDTO {
     public Boolean enabled;
     public EventAllDTO events;
     public Boolean layoutable;
-    public BaseConverter converter;
+    public BaseConverterDTO converter;
     public String tooltip;
     public String label;
     public String value;

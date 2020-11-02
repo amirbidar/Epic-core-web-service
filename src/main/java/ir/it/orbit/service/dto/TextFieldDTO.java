@@ -20,7 +20,7 @@ public class TextFieldDTO {
     public BaseValidationDTO validators;
     public LayoutDataDTO layoutData;
     public EventAllDTO events;
-    public BaseConverter converter;
+    public BaseConverterDTO converter;
 
 
 

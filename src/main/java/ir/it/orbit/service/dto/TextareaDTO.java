@@ -8,7 +8,7 @@ public class TextareaDTO {
     public ListenersDTO listeners;
     public Boolean layoutable;
     public BaseValidationDTO validators;
-    public BaseConverter converter;
+    public BaseConverterDTO converter;
     public String tooltip;
     public Integer maxLength;
     public Boolean defaultWidget;

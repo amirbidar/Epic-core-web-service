@@ -1,6 +1,6 @@
 package ir.it.orbit.service.dto;
 
-import ir.it.orbit.service.dto.Base.BaseConverter;
+import ir.it.orbit.service.dto.Base.BaseConverterDTO;
 import ir.it.orbit.service.dto.Base.LayoutDataDTO;
 import ir.it.orbit.service.dto.Base.ListenersDTO;
 import lombok.Data;
@@ -10,7 +10,7 @@ public class TaskCommentDTO {
     public ListenersDTO listeners;
     public Boolean layoutable;
     public String validators;
-    public BaseConverter converter;
+    public BaseConverterDTO converter;
     public String tooltip;
     public Integer maxLength;
     public Boolean defaultWidget;

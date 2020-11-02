@@ -9,7 +9,7 @@ public class DynamicCheckboxDTO {
     public ListenersDTO listeners;
     public String layoutable;
     public BaseValidationDTO validators;
-    public BaseConverter converter;
+    public BaseConverterDTO converter;
     public String tooltip;
     public String label;
     public String enabled;

@@ -10,7 +10,7 @@ public class DropDownDTO {
     public Boolean editable;
     public Boolean layoutable;
     public BaseValidationDTO validators;
-    public BaseConverter converter;
+    public BaseConverterDTO converter;
     public String tooltip;
     public String label;
     public Boolean enabled;

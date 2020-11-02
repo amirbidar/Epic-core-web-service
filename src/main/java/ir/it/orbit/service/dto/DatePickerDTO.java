@@ -1,7 +1,7 @@
 package ir.it.orbit.service.dto;
 
 import ir.it.orbit.service.dto.Attributes.DatePicker.DatePickerValidators;
-import ir.it.orbit.service.dto.Base.BaseConverter;
+import ir.it.orbit.service.dto.Base.BaseConverterDTO;
 import ir.it.orbit.service.dto.Base.EventAllDTO;
 import ir.it.orbit.service.dto.Base.LayoutDataDTO;
 import ir.it.orbit.service.dto.Base.ListenersDTO;
@@ -23,7 +23,7 @@ public class DatePickerDTO {
     public ListenersDTO listeners;
     public EventAllDTO events;
     public DatePickerValidators validators;
-    public BaseConverter converter;
+    public BaseConverterDTO converter;
     private LayoutDataDTO layoutData;
 
 }

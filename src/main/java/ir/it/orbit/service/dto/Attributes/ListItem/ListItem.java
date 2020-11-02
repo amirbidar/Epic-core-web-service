@@ -1,11 +1,11 @@
 package ir.it.orbit.service.dto.Attributes.ListItem;
 
-import ir.it.orbit.service.dto.Base.BaseConverter;
+import ir.it.orbit.service.dto.Base.BaseConverterDTO;
 import lombok.Data;
 
 @Data
 public class ListItem {
-    public BaseConverter converter;
+    public BaseConverterDTO converter;
     public String name;
     public String icon;
     public String label;

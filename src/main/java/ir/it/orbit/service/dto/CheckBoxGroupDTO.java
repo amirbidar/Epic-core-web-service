@@ -13,7 +13,7 @@ public class CheckBoxGroupDTO {
     public String name;
     public String label;
     public String value;
-    public BaseConverter converter;
+    public BaseConverterDTO converter;
     public Boolean layoutable;
     public ListenersDTO listeners;
     public ItemCheckBoxGroup items;

@@ -12,7 +12,7 @@ public class LookupDTO {
     public Boolean layoutable;
     public BaseValidationDTO validators;
     public column columns;
-    public BaseConverter converter;
+    public BaseConverterDTO converter;
     public String tooltip;
     public Boolean fullTextSearch;
     public String label;

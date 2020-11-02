@@ -15,7 +15,7 @@ public class FileUploadDTO {
     public String validExtension;
     public Boolean layoutable;
     public BaseValidationDTO validators;
-    public BaseConverter converter;
+    public BaseConverterDTO converter;
     public Boolean manualSubmit;
     public EnumsDecleration.SourceUpload source;
     public String label;

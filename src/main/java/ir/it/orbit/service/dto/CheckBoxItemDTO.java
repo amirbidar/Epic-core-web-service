@@ -10,7 +10,7 @@ public class CheckBoxItemDTO {
     public Boolean visible;
     public Boolean layoutable;
     public BaseValidationDTO validators;
-    public BaseConverter converter;
+    public BaseConverterDTO converter;
     public String tooltip;
     public String name;
     public String label;

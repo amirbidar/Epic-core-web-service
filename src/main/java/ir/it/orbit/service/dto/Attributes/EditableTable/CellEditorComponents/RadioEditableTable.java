@@ -9,7 +9,7 @@ public class RadioEditableTable {
     public ListenersDTO listeners;
     public Boolean layoutable;
     public BaseValidationDTO validators;
-    public BaseConverter converter;
+    public BaseConverterDTO converter;
     public String name;
     public Boolean label;
     public String value;
