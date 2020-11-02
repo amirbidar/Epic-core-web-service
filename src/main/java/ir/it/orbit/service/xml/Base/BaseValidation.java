@@ -1,8 +1,7 @@
 package ir.it.orbit.service.xml.Base;
 
-import ir.it.orbit.service.xml.Base.EventListeners.OnClick;
-import ir.it.orbit.service.xml.Base.Validationss.*;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import ir.it.orbit.service.xml.Base.Validationss.*;
 import lombok.Data;
 
 import java.util.List;
@@ -23,8 +22,11 @@ public class BaseValidation {
     public List<ScriptValidator> scriptValidator;
     @JsonProperty("captcha-validator")
     public List<CaptchaValidator> captchaValidator;
-    @JsonProperty("on-click")
-    public List<OnClick> onClick;
+/*    @JsonProperty("on-click")
+    public List<OnClick> onClick;*/
     @JsonProperty("selection-validator")
     public List<SelectionValidation> selectionValidation;
+    @JsonProperty("date-range-validator")
+    public List<DateRangeValidator> dateRangeValidator;
+
 }

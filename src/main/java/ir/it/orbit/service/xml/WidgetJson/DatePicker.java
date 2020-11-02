@@ -1,12 +1,8 @@
 package ir.it.orbit.service.xml.WidgetJson;
 
-import ir.it.orbit.service.xml.Attributes.DatePicker.DatePickerValidators;
-import ir.it.orbit.service.xml.Base.BaseConverter;
-import ir.it.orbit.service.xml.Base.EventAll;
-import ir.it.orbit.service.xml.Base.LayoutData;
-import ir.it.orbit.service.xml.Base.Listeners;
-import ir.it.orbit.service.xml.Enum.EnumsDecleration;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import ir.it.orbit.service.xml.Base.*;
+import ir.it.orbit.service.xml.Enum.EnumsDecleration;
 import lombok.Data;
 
 @Data
@@ -22,7 +18,7 @@ public class DatePicker {
     public String value;
     public Listeners listeners;
     public EventAll events;
-    public DatePickerValidators validators;
+    public BaseValidation validators;
     public BaseConverter converter;
     @JsonProperty("layout-data")
     private LayoutData layoutData;
