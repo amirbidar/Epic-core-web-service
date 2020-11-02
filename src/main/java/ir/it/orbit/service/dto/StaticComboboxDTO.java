@@ -1,6 +1,6 @@
 package ir.it.orbit.service.dto;
 
-import ir.it.orbit.service.dto.Attributes.EditableTable.CellEditorComponents.Items;
+import ir.it.orbit.service.dto.Attributes.EditableTable.CellEditorComponents.ItemsDTO;
 import ir.it.orbit.service.dto.Base.*;
 import lombok.Data;
 
@@ -17,6 +17,6 @@ public class StaticComboboxDTO {
     public LayoutDataDTO layoutData;
     public String name;
     public String value;
-    public Items items;
+    public ItemsDTO items;
     public EventAllDTO events;
 }

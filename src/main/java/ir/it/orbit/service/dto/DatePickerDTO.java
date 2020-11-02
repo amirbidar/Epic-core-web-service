@@ -7,19 +7,19 @@ import lombok.Data;
 
 @Data
 public class DatePickerDTO {
-    public Boolean layoutable;
-    public String tooltip;
-    public String label;
-    public Boolean enabled;
-    public EnumsDecleration.DatePickerMode mode;
-    public Boolean readonly;
-    public EnumsDecleration.DatePickerCalenderMode calendarMode;
-    public String name;
-    public String value;
-    public ListenersDTO listeners;
-    public EventAllDTO events;
-    public BaseValidationDTO validators;
+    public  Boolean layoutable;
+    public  String tooltip;
+    public  String label;
+    public  Boolean enabled;
+    public  EnumsDecleration.DatePickerMode mode;
+    public  Boolean readonly;
+    public  EnumsDecleration.DatePickerCalenderMode calendarMode;
+    public  String name;
+    public  String value;
+    public  ListenersDTO listeners;
+    public  EventAllDTO events;
+    public  BaseValidationDTO validators;
     public  BaseConverterDTO converter;
-    private LayoutDataDTO layoutData;
+    public  LayoutDataDTO layoutData;
 
 }

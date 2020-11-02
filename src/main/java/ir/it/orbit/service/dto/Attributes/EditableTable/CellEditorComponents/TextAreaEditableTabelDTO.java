@@ -7,15 +7,14 @@ import ir.it.orbit.service.dto.Enum.EnumsDecleration;
 import lombok.Data;
 
 @Data
-public class TextFieldEditableTabel {
-
+public class TextAreaEditableTabelDTO {
     public Boolean layoutable;
     public BaseValidationDTO validators;
     public BaseConverterDTO converter;
     public String tooltip;
     public Integer maxLength;
     public Boolean defaultWidget;
-    public Boolean formatNumber;
+    public Boolean htmlEnabled;
     public String label;
     public Boolean enabled;
     public Boolean readonly;

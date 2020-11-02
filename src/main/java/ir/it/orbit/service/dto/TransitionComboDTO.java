@@ -1,6 +1,6 @@
 package ir.it.orbit.service.dto;
 
-import ir.it.orbit.service.dto.Attributes.StaticComboBox.ItemsComboBox;
+import ir.it.orbit.service.dto.Attributes.StaticComboBox.ItemsComboBoxDTO;
 import ir.it.orbit.service.dto.Base.*;
 import lombok.Data;
 
@@ -17,6 +17,6 @@ public class TransitionComboDTO {
     public LayoutDataDTO layoutData;
     public String name;
     public String value;
-    public ItemsComboBox items;
+    public ItemsComboBoxDTO items;
     public EventAllDTO events;
 }

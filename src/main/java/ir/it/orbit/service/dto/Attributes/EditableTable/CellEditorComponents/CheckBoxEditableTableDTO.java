@@ -7,7 +7,7 @@ import ir.it.orbit.service.dto.Base.ListenersDTO;
 import lombok.Data;
 
 @Data
-public class CheckBoxEditableTable {
+public class CheckBoxEditableTableDTO {
     public ListenersDTO listeners;
     public Boolean layoutable;
     public BaseValidationDTO validators;

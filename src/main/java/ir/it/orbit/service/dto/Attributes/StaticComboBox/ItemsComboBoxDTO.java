@@ -5,9 +5,9 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class ItemsComboBox {
+public class ItemsComboBoxDTO {
     public String condition;
-    public List<Item> item;
+    public List<ItemDTO> item;
     public String var;
     public String emptyItemLabel;
     public String value;

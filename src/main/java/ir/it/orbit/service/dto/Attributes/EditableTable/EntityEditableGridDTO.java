@@ -5,11 +5,11 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class EntityEditableGrid {
+public class EntityEditableGridDTO {
 
     public Boolean editable;
     public String name;
-    public List<PropertyEditableGrid> property;
+    public List<PropertyEditableGridDTO> property;
     public Integer id;
     public String label;
     public String value;

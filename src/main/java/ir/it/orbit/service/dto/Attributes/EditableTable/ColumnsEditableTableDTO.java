@@ -5,7 +5,7 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class ColumnsEditableTable {
-    public List<ColumnEditableTable> column;
+public class ColumnsEditableTableDTO {
+    public List<ColumnEditableTableDTO> column;
 
 }

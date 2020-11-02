@@ -3,8 +3,8 @@ package ir.it.orbit.service.dto.Attributes.EditableTable;
 import lombok.Data;
 
 @Data
-public class ColumnEditableTable {
-    public CellEditor cellEditor;
+public class ColumnEditableTableDTO {
+    public CellEditorDTO cellEditor;
     public String name;
     public Integer width;
     public String header;
