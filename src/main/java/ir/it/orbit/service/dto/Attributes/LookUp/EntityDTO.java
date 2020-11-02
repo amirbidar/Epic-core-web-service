@@ -5,10 +5,10 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class Entity {
+public class EntityDTO {
     public Boolean editable;
     public String name;
-    public List<Property> property;
+    public List<PropertyDTO> property;
     public Integer id;
     public String label;
     public String value;

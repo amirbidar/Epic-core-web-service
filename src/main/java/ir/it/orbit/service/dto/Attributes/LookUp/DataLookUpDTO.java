@@ -5,9 +5,9 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class DataLookUp {
+public class DataLookUpDTO {
     public String condition;
     public String var;
     public String value;
-    public List<Entity> entity;
+    public List<EntityDTO> entity;
 }
