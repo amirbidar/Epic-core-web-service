@@ -17,7 +17,7 @@ public class GridDTO {
     public String label;
     public Boolean enabled;
     public LayoutDataDTO layoutData;
-    public BasePagination paginationBar;
+    public BasePaginationDTO paginationBar;
     public String name;
     public String header;
     public Integer defaultPageSize;

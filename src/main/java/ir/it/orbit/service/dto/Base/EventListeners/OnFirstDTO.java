@@ -7,7 +7,7 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class OnClick {
+public class OnFirstDTO {
     public String submitRegion;
     public List<ArgumentDTO> argument;
     public String reRender;

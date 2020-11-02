@@ -7,7 +7,7 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class OnClick {
+public class OnSearchDTO {
     public String submitRegion;
     public List<ArgumentDTO> argument;
     public String reRender;
@@ -20,6 +20,5 @@ public class OnClick {
     public EnumsDecleration.Environment runAt;
     public String fireCondition;
     public String condition;
-
 
 }

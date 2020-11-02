@@ -6,9 +6,9 @@ import lombok.Data;
 @Data
 public class SelectionValidation {
     @JsonProperty("maximum-selection")
-    public int maximumSelection;
+    public Integer maximumSelection;
     @JsonProperty("run-at")
     public String runAt;
     @JsonProperty("minimum-selection")
-    public int minimumSelection;
+    public Integer minimumSelection;
 }

@@ -9,13 +9,14 @@ import java.util.List;
 
 public class BaseValidationDTO {
   //  List<Validations> validations;
-    public List<RequiredValidator> requiredValidator;
-    public List<EmailValidator> emailValidator;
-    public List<NumberValidator> numberValidator;
-    public List<StringValidator> stringValidator;
-    public List<ScriptValidator> scriptValidator;
-    public List<CaptchaValidator> captchaValidator;
+    public List<RequiredValidatorDTO> requiredValidator;
+    public List<EmailValidatorDTO> emailValidator;
+    public List<NumberValidatorDTO> numberValidator;
+    public List<StringValidatorDTO> stringValidator;
+    public List<ScriptValidatorDTO> scriptValidator;
+    public List<CaptchaValidatorDTO> captchaValidator;
 //    public List<OnClick> onClick;
-    public List<SelectionValidation> selectionValidation;
-    public List<DateRangeValidator> dateRangeValidator;
+    public List<SelectionValidationDTO> selectionValidation;
+    public List<DateRangeValidatorDTO> dateRangeValidator;
+
 }

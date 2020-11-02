@@ -9,22 +9,22 @@ import java.util.List;
 @Data
 @JsonIgnoreProperties
 public class EventAllDTO {
-    public List<OnLoad> onLoad;
-    public List<OnSelect> onSelect;
-    public List<OnChange> onChange;
-    public List<OnDeselect> onDeselect;
-    public List<OnFocusLost> onFocusLost;
-    public List<OnEdit> onEdit;
-    public List<OnLast> onLast;
-    public List<OnPrevious> onPrevious;
-    public List<OnSearch> onSearch;
-    public List<OnNext> onNext;
-    public List<OnFirst> onFirst;
-    public List<OnRefresh> onRefresh;
-    public List<OnSelectionChange> onSelectionChange;
-    public List<OnClick> onClick;
-    public List<OnDoubleClick> onDoubleClicks;
-    public List<OnRowAction> onRowActions;
+    public List<OnLoadDTO> onLoad;
+    public List<OnSelectDTO> onSelect;
+    public List<OnChangeDTO> onChange;
+    public List<OnDeselectDTO> onDeselect;
+    public List<OnFocusLostDTO> onFocusLost;
+    public List<OnEditDTO> onEdit;
+    public List<OnLastDTO> onLast;
+    public List<OnPreviousDTO> onPrevious;
+    public List<OnSearchDTO> onSearch;
+    public List<OnNextDTO> onNext;
+    public List<OnFirstDTO> onFirst;
+    public List<OnRefreshDTO> onRefresh;
+    public List<OnSelectionChangeDTO> onSelectionChange;
+    /*public List<OnClick> onClick;*/
+    public List<OnDoubleClickDTO> onDoubleClicks;
+    public List<OnRowActionDTO> onRowActions;
 
    /* @JsonProperty("on-load")
     public OnLoad onLoad2;

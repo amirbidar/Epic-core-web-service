@@ -7,19 +7,17 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class OnClick {
+public class OnLastDTO {
+    public EnumsDecleration.EventPhase phase;
     public String submitRegion;
     public List<ArgumentDTO> argument;
     public String reRender;
+    public EnumsDecleration.Language clientSideLanguage;
     public String before;
     public String name;
     public String action;
     public String onSuccess;
-    public EnumsDecleration.EventPhase phase;
-    public EnumsDecleration.Language clientSideLanguage;
     public EnumsDecleration.Environment runAt;
     public String fireCondition;
     public String condition;
-
-
 }

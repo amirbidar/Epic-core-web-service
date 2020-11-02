@@ -6,6 +6,5 @@ import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring", uses = {PhaseListenerMapper.class})
 public interface ListenersMapper extends EntityMapper<ListenersDTO, Listeners> {
-
-
+    
 }

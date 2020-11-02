@@ -20,7 +20,7 @@ public class LookupDTO {
     public String popupTitle;
     public LayoutDataDTO layoutData;
     public Boolean readonly;
-    public BasePagination paginationBar;
+    public BasePaginationDTO paginationBar;
     public Integer width;
     public String name;
     public String header;
