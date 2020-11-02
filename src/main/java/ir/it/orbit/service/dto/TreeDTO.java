@@ -1,6 +1,6 @@
 package ir.it.orbit.service.dto;
 
-import ir.it.orbit.service.dto.Attributes.Tree.Columns;
+import ir.it.orbit.service.dto.Attributes.Tree.ColumnsDTO;
 import ir.it.orbit.service.dto.Base.EventAllDTO;
 import ir.it.orbit.service.dto.Base.LayoutDataDTO;
 import ir.it.orbit.service.dto.Base.ListenersDTO;
@@ -13,7 +13,7 @@ public class TreeDTO {
     public Boolean sortByQuery;
     public Boolean layoutable;
     public String validators;
-    public Columns columns;
+    public ColumnsDTO columns;
     public String datas;
     public String label;
     public Boolean enabled;

@@ -4,7 +4,7 @@ import ir.it.orbit.service.dto.Base.BaseConverterDTO;
 import lombok.Data;
 
 @Data
-public class ListItem {
+public class ListItemDTO {
     public BaseConverterDTO converter;
     public String name;
     public String icon;

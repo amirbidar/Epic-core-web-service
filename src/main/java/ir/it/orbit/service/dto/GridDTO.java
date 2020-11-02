@@ -2,7 +2,7 @@ package ir.it.orbit.service.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import ir.it.orbit.service.dto.Attributes.Table.DataTable;
-import ir.it.orbit.service.dto.Attributes.Tree.Columns;
+import ir.it.orbit.service.dto.Attributes.Tree.ColumnsDTO;
 import ir.it.orbit.service.dto.Base.*;
 import ir.it.orbit.service.dto.Enum.EnumsDecleration;
 import lombok.Data;
@@ -13,7 +13,7 @@ public class GridDTO {
     public DataTable data;
     public Boolean layoutable;
     public BaseValidationDTO validators;
-    public Columns columns;
+    public ColumnsDTO columns;
     public String label;
     public Boolean enabled;
     public LayoutDataDTO layoutData;

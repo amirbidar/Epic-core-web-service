@@ -4,7 +4,7 @@ import ir.it.orbit.service.dto.Enum.EnumsDecleration;
 import lombok.Data;
 
 @Data
-public class Column {
+public class ColumnDTO {
     public String name;
     public String icon;
     public Integer width;

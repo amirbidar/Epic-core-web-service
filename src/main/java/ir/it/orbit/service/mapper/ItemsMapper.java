@@ -5,7 +5,7 @@ import ir.it.orbit.service.xml.Attributes.EditableTable.CellEditorComponents.Ite
 import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring", uses = {})
-public interface ItemMapper extends EntityMapper<ItemsDTO, Items> {
+public interface ItemsMapper extends EntityMapper<ItemsDTO, Items> {
 
 
 

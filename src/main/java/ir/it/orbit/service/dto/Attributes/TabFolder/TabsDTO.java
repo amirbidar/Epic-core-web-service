@@ -5,6 +5,6 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class Tabs {
-    public List<Tab> tab;
+public class TabsDTO {
+    public List<TabDTO> tab;
 }

@@ -1,6 +1,6 @@
 package ir.it.orbit.service.dto;
 
-import ir.it.orbit.service.dto.Attributes.ListItem.ListItems;
+import ir.it.orbit.service.dto.Attributes.ListItem.ListItemsDTO;
 import ir.it.orbit.service.dto.Base.*;
 import lombok.Data;
 
@@ -10,7 +10,7 @@ public class StaticListDTO {
     public BaseValidationDTO validators;
     public ListenersDTO listeners;
     public String name;
-    public ListItems items;
+    public ListItemsDTO items;
     public String selectionMode;
     public Boolean enabled;
     public EventAllDTO events;

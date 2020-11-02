@@ -6,7 +6,7 @@ import ir.it.orbit.service.dto.Base.ListenersDTO;
 import lombok.Data;
 
 @Data
-public class Tab {
+public class TabDTO {
         public LayoutDTO layout;
         public ListenersDTO listeners;
         public Boolean layoutable;
