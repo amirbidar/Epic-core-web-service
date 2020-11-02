@@ -6,7 +6,7 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class ItemRadioGroup {
+public class ItemRadioGroupDTO {
     public List<RadioItemDTO> radio;
     public String condition;
     public String var;

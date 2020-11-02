@@ -1,6 +1,6 @@
 package ir.it.orbit.service.dto;
 
-import ir.it.orbit.service.dto.Attributes.LookUp.DataLookUp;
+import ir.it.orbit.service.dto.Attributes.LookUp.DataLookUpDTO;
 import ir.it.orbit.service.dto.Attributes.LookUp.column;
 import ir.it.orbit.service.dto.Base.*;
 import lombok.Data;
@@ -8,7 +8,7 @@ import lombok.Data;
 @Data
 public class LookupDTO {
     public ListenersDTO listeners;
-    public DataLookUp data;
+    public DataLookUpDTO data;
     public Boolean layoutable;
     public BaseValidationDTO validators;
     public column columns;

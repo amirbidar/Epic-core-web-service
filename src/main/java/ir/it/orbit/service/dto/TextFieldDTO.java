@@ -21,7 +21,4 @@ public class TextFieldDTO {
     public LayoutDataDTO layoutData;
     public EventAllDTO events;
     public BaseConverterDTO converter;
-
-
-
 }
